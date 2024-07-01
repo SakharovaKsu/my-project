@@ -1,0 +1,7 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "selector-class-pattern": null,
+  "rules": {
+    "scss/at-mixin-pattern": null
+  }
+}

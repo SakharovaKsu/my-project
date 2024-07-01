@@ -1,0 +1,24 @@
+@import "variables/global";
+@import "themes/light";
+@import "themes/dark";
+@import "reset";
+@import "variables/typography";
+@import "variables/mixins";
+
+.app {
+  font: var(--font-m);
+  color: var(--primary-color);
+  background: var(--bg-color);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 25px;
+  height: calc(100vh - var(--height-navbar));
+}

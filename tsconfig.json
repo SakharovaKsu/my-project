@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Компилирует код для совместимости с ECMAScript 5
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Включает библиотеки DOM, поддержку итераторов DOM и все новейшие возможности ECMAScript.
+    "allowJs": true, // Не позволяет компилятору работать с JavaScript файлами.
+    "skipLibCheck": true, // Пропускает проверку типов в файлах деклараций (d.ts), что ускоряет компиляцию, но может скрыть некоторые проблемы.
+    "esModuleInterop": true,  // Включает совместимость с CommonJS модулями, позволяет использовать синтаксис `import`.
+    "allowSyntheticDefaultImports": true, // Позволяет использовать `import defaultExport from "module"` с модулями CommonJS.
+    "strict": true,
+    "forceConsistentCasingInFileNames": true, // Проверяет корректное использование регистра в именах файлов.
+    "noFallthroughCasesInSwitch": true, // Запрещает переход к следующему case в switch, если не указан break.
+    "module": "esnext", // Использует следующий стандарт ECMAScript для модулей.
+    "moduleResolution": "node", // Использует алгоритм резолюции модулей Node.js.
+    "resolveJsonModule": true, // Позволяет импортировать JSON файлы.
+    "isolatedModules": true, // Трансформирует каждый файл как отдельный модуль. Полезно при использовании Babel.
+    "noEmit": true, // Запрещает генерацию файлов компилятором. Полезно, если используется только для проверки типов.
+    "jsx": "react", // Использует React JSX трансформации.
+    "types": ["react", "react-dom"], // Включает указанные типы при компиляции.
+    "typeRoots": ["./node_modules/@types", "./src/react-i18next.d.ts"]
+  },
+  "include": ["src/**/*", "./*.ts"], // Включает все файлы в папке src и файлы с расширением .ts в корне проекта.
+  "exclude": ["./build/", "./public/", "./node_modules"], // Исключает указанные папки из компиляции.
+  "extends": "./tsconfig.paths.json" // Наследует настройки из другого файла tsconfig.paths.json.
+}

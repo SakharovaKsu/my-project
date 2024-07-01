@@ -1,0 +1,51 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  parser: '@typescript-eslint/parser',
+  extends: [
+    'react-app',
+    'react-app/jest',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:i18next/recommended',
+  ],
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: ['@typescript-eslint', 'i18next'],
+  rules: {
+    'no-unused-vars': 'warn',
+    'no-console': 'off',
+    'indent': ['error', 2],
+    'i18next/no-literal-string':
+        ['error', { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }],
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    quotes: [
+      'error',
+      'single',
+      { avoidEscape: true, allowTemplateLiterals: true },
+    ],
+    'react/jsx-indent-props': [2, 2],
+    'react/jsx-filename-extension': [
+      2,
+      { extensions: ['.js', '.jsx', '.tsx'] },
+    ],
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
+    'react/require-default-props': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-props-no-spreading': 'warn',
+    'react/function-component-definition': 'off',
+    'no-shadow': 'off',
+    'import/extensions': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'no-underscore-dangle': 'off',
+    'react/jsx-curly-brace-presence': 'off',
+    'max-len': ['error', { ignoreComments: true, code: 100 }],
+  },
+}

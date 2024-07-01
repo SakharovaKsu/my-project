@@ -1,0 +1,178 @@
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+@mixin title-1($weight) {
+  font-family: var(font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+@mixin title-1-medium {
+  @include title-1($medium);
+}
+
+@mixin title-1-bold {
+  @include title-1($bold);
+}
+
+@mixin title-2($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@mixin title-2-regular {
+  @include title-2($regular);
+}
+
+@mixin title-2-medium {
+  @include title-2($medium);
+}
+
+@mixin title-2-bold {
+  @include title-2($bold);
+
+  letter-spacing: 0.38px;
+}
+
+@mixin headline($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+@mixin headline-regular {
+  @include headline($regular);
+}
+
+@mixin headline-medium {
+  @include headline($medium);
+}
+
+@mixin text($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+@mixin text-regular {
+  @include text($regular);
+}
+
+@mixin text-medium {
+  @include text($medium);
+}
+
+@mixin subhead($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+@mixin subhead-regular {
+  @include subhead($regular);
+}
+
+@mixin subhead-medium {
+  @include subhead($medium);
+}
+
+@mixin subhead-bold {
+  @include subhead($bold);
+}
+
+@mixin caption-1($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+@mixin caption-1-regular {
+  @include caption-1($regular);
+}
+
+@mixin caption-1-medium {
+  @include caption-1($medium);
+}
+
+@mixin caption-1-caps-medium {
+  @include caption-1($medium);
+
+  text-transform: uppercase;
+}
+
+@mixin caption-2($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+}
+
+@mixin caption-2-regular {
+  @include caption-2($regular);
+}
+
+@mixin caption-2-medium {
+  @include caption-2($medium);
+}
+
+@mixin caption-3($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+}
+
+@mixin caption-3-medium {
+  @include caption-3($medium);
+}
+
+@mixin caption-3-caps-medium {
+  @include caption-3($medium);
+
+  text-transform: uppercase;
+}
+
+@mixin caption-4($weight) {
+  font-family: var(--font-famile-main);
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+}
+
+@mixin caption-4-medium {
+  @include caption-4($medium);
+}
+
+@mixin caption-4-regular {
+  @include caption-4($regular);
+}
+
+@mixin caption-4-caps-medium {
+  @include caption-4($bold);
+
+  text-transform: uppercase;
+}
