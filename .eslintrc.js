@@ -1,40 +1,42 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   env: {
     browser: true,
     es2021: true,
     node: true,
+    'jest/globals': true,
   },
-  parser: '@typescript-eslint/parser',
   extends: [
-    'react-app',
-    'react-app/jest',
     'eslint:recommended',
+    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:i18next/recommended',
+    'plugin:jest/recommended',
   ],
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
-  },
-  plugins: ['@typescript-eslint', 'i18next'],
+  plugins: ['react', '@typescript-eslint', 'react-hooks', 'i18next', 'jest'],
   rules: {
     'no-unused-vars': 'warn',
     'no-console': 'off',
     'indent': ['error', 2],
-    'i18next/no-literal-string':
-        ['error', { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }],
+    'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }],
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
-    quotes: [
-      'error',
-      'single',
-      { avoidEscape: true, allowTemplateLiterals: true },
-    ],
+    quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'react/jsx-indent-props': [2, 2],
-    'react/jsx-filename-extension': [
-      2,
-      { extensions: ['.js', '.jsx', '.tsx'] },
-    ],
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
     'react/require-default-props': 'off',
@@ -48,4 +50,4 @@ module.exports = {
     'react/jsx-curly-brace-presence': 'off',
     'max-len': ['error', { ignoreComments: true, code: 100 }],
   },
-}
+};
