@@ -18,14 +18,7 @@ module.exports = {
     node: true,
     'jest/globals': true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:i18next/recommended',
-    'plugin:jest/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:react-hooks/recommended', 'plugin:i18next/recommended', 'plugin:jest/recommended'],
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'i18next', 'jest'],
   rules: {
     'no-unused-vars': 'warn',
