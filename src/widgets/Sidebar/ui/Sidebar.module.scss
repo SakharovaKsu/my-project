@@ -8,7 +8,8 @@
   width: var(--sidebar-width);
   background-color: var(--primary-color);
   border: 1px solid var(--accent-color);
-  padding: 25px;
+  border-top: none;
+  padding: 24px;
   transition: width 0.3s;
   overflow: auto;
 }
@@ -21,7 +22,31 @@
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
+
+  & svg {
+    height: 30px;
+    width: auto;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.3s opacity;
+
+  & svg {
+    width: auto;
+  }
 }

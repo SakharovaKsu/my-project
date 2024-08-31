@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Button, ThemeButton } from '../../Button/Button';
+import { Button, ButtonTheme } from '../../Button/Button';
 import { Theme, useTheme } from '@/app/provider/themeProvider';
 import { classNames } from '@shared/lib/classNames/classNames';
 import {Svg} from '@/shared/assets';
@@ -18,7 +18,7 @@ export const ThemeSwitcher: FC<Props> = ({ className = '', type = 'button' }) =>
       type={type}
       className={classNames('', {}, [className])}
       onClick={toggleTheme}
-      theme={ThemeButton.CLEAR}
+      theme={ButtonTheme.CLEAR}
     >
       {theme === Theme.DARK ? (
         <Svg.Icon.ThemeDark/>
