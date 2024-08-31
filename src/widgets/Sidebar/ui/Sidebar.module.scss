@@ -6,7 +6,8 @@
   align-items: center;
   height: calc(100vh - var(--height-navbar));
   width: var(--sidebar-width);
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--accent-color);
   padding: 25px;
   transition: width 0.3s;
   overflow: auto;

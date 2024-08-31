@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527a8e6d-029d-4102-a843-b58b34867768" name="Changes" comment="Перезалить проект с другой сборкой">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ru/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/light.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +43,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "new",
-    "last_opened_file_path": "/Users/ksenia/Desktop/my-project/src/shared/ui/Button",
+    "last_opened_file_path": "/Users/ksenia/Desktop/my-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.stylelint": "/Users/ksenia/Desktop/my-project/node_modules/stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -124,7 +131,8 @@
       <workItem from="1719831028069" duration="2568000" />
       <workItem from="1719836923287" duration="237000" />
       <workItem from="1719912746979" duration="5384000" />
-      <workItem from="1719919193717" duration="3391000" />
+      <workItem from="1719919193717" duration="5048000" />
+      <workItem from="1725116567191" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="Перезалить проект с другой сборкой">
       <option name="closed" value="true" />

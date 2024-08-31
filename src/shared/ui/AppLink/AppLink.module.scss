@@ -2,12 +2,23 @@
   font: var(--font-m);
   text-decoration: none;
   text-transform: uppercase;
+  padding: 8px;
+
+  &:hover {
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+  }
+
+  &:active {
+    color: var(--opposite-primary-color);
+    border-bottom: 1px solid var(--opposite-primary-color);
+  }
 }
 
 .primary {
-  color: var(--opposite-primary-color);
+  color: var(--text-color-dark);
 }
 
 .secondary {
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
