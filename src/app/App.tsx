@@ -11,7 +11,7 @@ import './styles/index.scss';
 const App = () => {
   const { theme } = useTheme();
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <div className={classNames('app', {}, [theme])}>
