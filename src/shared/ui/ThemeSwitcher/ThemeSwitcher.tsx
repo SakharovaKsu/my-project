@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
-import { Button, ButtonTheme } from '../../Button/Button';
-import { Theme, useTheme } from '@/app/provider/themeProvider';
+import { Button, ButtonTheme } from '../Button/Button';
+import { Theme, useTheme } from '@app/provider/themeProvider';
 import { classNames } from '@shared/lib/classNames/classNames';
-import {Svg} from '@/shared/assets';
+import {Svg} from '@shared/assets';
 
 
 interface Props {

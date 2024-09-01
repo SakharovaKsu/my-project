@@ -1,8 +1,13 @@
 :root {
-  --light-color: #fff;
+  // Цвета
   --br-global-color: #00a6a6;
   --bs-global-color: #d5d5d5;
+  --overlay-color: rgba(26, 26, 26, 0.6);
+
+  // Шрифты
   --font-famile-main: candara, consolas, serif;
+
+  // Размеры
   --height-navbar: 80px;
   --sidebar-width: 200px;
   --sidebar-widtch-collapsed: 100px;

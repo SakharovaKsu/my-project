@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527a8e6d-029d-4102-a843-b58b34867768" name="Changes" comment="Перезалить проект с другой сборкой">
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Loader/Loader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Loader/Loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Loader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/light.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/assets/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/ui/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/ThemeSwitcher.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "new",
-    "last_opened_file_path": "/Users/ksenia/Desktop/my-project",
+    "last_opened_file_path": "/Users/ksenia/Desktop/my-project/src/shared/ui/LangSwitcher",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -42,16 +57,21 @@
     "node.js.selected.package.stylelint": "/Users/ksenia/Desktop/my-project/node_modules/stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/ksenia/Desktop/my-project/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/ui/LangSwitcher" />
       <recent name="$PROJECT_DIR$/src/shared/ui/Button" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher" />
+      <recent name="$PROJECT_DIR$/src/shared/ui/Modal" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -105,6 +125,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="527a8e6d-029d-4102-a843-b58b34867768" name="Changes" comment="" />
@@ -121,7 +144,7 @@
       <workItem from="1719836923287" duration="237000" />
       <workItem from="1719912746979" duration="5384000" />
       <workItem from="1719919193717" duration="5048000" />
-      <workItem from="1725116567191" duration="5959000" />
+      <workItem from="1725116567191" duration="9478000" />
     </task>
     <task id="LOCAL-00001" summary="Перезалить проект с другой сборкой">
       <option name="closed" value="true" />
