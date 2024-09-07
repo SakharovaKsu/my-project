@@ -18,15 +18,29 @@ module.exports = {
     node: true,
     'jest/globals': true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:react-hooks/recommended', 'plugin:i18next/recommended', 'plugin:jest/recommended'],
-  plugins: ['react', '@typescript-eslint', 'react-hooks', 'i18next', 'jest'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:i18next/recommended',
+    'plugin:jest/recommended'
+  ],
+  plugins: ['react', '@typescript-eslint', 'react-hooks', 'i18next', 'jest', 'react-hooks'],
   rules: {
     'no-unused-vars': 'warn',
     'no-console': 'off',
     'indent': ['error', 2],
-    'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }],
+    'i18next/no-literal-string': [
+      'error',
+      {
+        markupOnly: true,
+        ignoreAttribute: ['data-testid', 'to']
+      }],
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'react/jsx-indent-props': [2, 2],
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],

@@ -18,9 +18,9 @@ const App = () => {
       <Suspense fallback={''}>
         {/* eslint-disable-next-line i18next/no-literal-string */}
         <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-          Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </Modal>
         {/* eslint-disable-next-line i18next/no-literal-string */}
         <button onClick={() => setIsOpen(true)}>Open Modal</button>

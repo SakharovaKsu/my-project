@@ -1,7 +1,7 @@
-import React, {FC, ReactNode, useRef, useState} from 'react';
+import React, { FC, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
 import { classNames } from '../../lib/classNames/classNames';
-import {Button} from '@shared/ui';
-import {Svg} from '@shared/assets';
+import { Button } from '@shared/ui';
+import { Svg } from '@shared/assets';
 import cls from './Modal.module.scss';
 
 const ANIMATION_DURATION = 300;
@@ -24,16 +24,50 @@ export const Modal:FC<Props> = ({className = '', children, isOpen, onClose}) => 
     [cls.opened]: isOpen,
   }
 
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     if (onClose) {
       setIsClosed(true);
-
-      timerReef.current = setTimeout(() => {
-        onClose();
-        setIsClosed(false);
-      }, ANIMATION_DURATION)
     }
-  }
+  }, [onClose]);
+
+  const onKeyDown = useCallback(
+    (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        handleClose();
+      }
+    },
+    [handleClose]
+  );
+
+  useEffect(() => {
+    if (isClosed) {
+      timerReef.current = setTimeout(() => {
+        if (onClose) {
+          onClose();
+        }
+        setIsClosed(false);
+      }, ANIMATION_DURATION);
+    }
+
+    return () => {
+      if (timerReef.current !== null) {
+        clearTimeout(timerReef.current);
+      }
+    };
+  }, [isClosed, onClose]);
+
+  useEffect(() => {
+    if(isOpen) {
+      window.addEventListener('keydown', onKeyDown)
+    }
+
+    return () => {
+      if (timerReef.current !== null) {
+        clearTimeout(timerReef.current);
+      }
+      window.removeEventListener('keydown', onKeyDown);
+    }
+  }, [isOpen, onKeyDown])
 
   return (
     <div className={classNames(cls.modal, mods, [className])}>
