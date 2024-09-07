@@ -1,6 +1,6 @@
 import React, { FC, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
-import { classNames } from '../../lib/classNames/classNames';
-import { Button } from '@shared/ui';
+import { classNames } from '@shared/lib';
+import { Button, Portal } from '@shared/ui';
 import { Svg } from '@shared/assets';
 import cls from './Modal.module.scss';
 
@@ -70,15 +70,17 @@ export const Modal:FC<Props> = ({className = '', children, isOpen, onClose}) => 
   }, [isOpen, onKeyDown])
 
   return (
-    <div className={classNames(cls.modal, mods, [className])}>
-      <div className={cls.overlay}>
-        <div className={classNames(cls.content, {[cls.isClosing]: isClosed}, [className])}>
-          <Button className={cls.close} onClick={handleClose}>
-            <Svg.Icon.Close/>
-          </Button>
-          <div>{children}</div>
+    <Portal>
+      <div className={classNames(cls.modal, mods, [className])}>
+        <div className={cls.overlay}>
+          <div className={classNames(cls.content, {[cls.isClosing]: isClosed}, [className])}>
+            <Button className={cls.close} onClick={handleClose}>
+              <Svg.Icon.Close/>
+            </Button>
+            <div>{children}</div>
+          </div>
         </div>
       </div>
-    </div>
+    </Portal>
   );
 };

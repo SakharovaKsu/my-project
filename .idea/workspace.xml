@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527a8e6d-029d-4102-a843-b58b34867768" name="Changes" comment="Перезалить проект с другой сборкой">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/provider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/classNames/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Portal/Portal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Portal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageError/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageError/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageError/PageError.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageError/PageError.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageLoader/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageLoader/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageLoader/ui/PageLoader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageLoader/PageLoader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageLoader/ui/PageLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageLoader/PageLoader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/Sidebar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/Sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +80,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/widgets/Navbar" />
+      <recent name="$PROJECT_DIR$/src/widgets/PageError" />
+      <recent name="$PROJECT_DIR$/src/widgets/PageLoader" />
+      <recent name="$PROJECT_DIR$/src/widgets/Sidebar" />
       <recent name="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher" />
-      <recent name="$PROJECT_DIR$/src/shared/ui/Modal" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -135,7 +158,7 @@
       <workItem from="1719912746979" duration="5384000" />
       <workItem from="1719919193717" duration="5048000" />
       <workItem from="1725116567191" duration="16033000" />
-      <workItem from="1725703284846" duration="1676000" />
+      <workItem from="1725703284846" duration="3959000" />
     </task>
     <task id="LOCAL-00001" summary="Перезалить проект с другой сборкой">
       <option name="closed" value="true" />

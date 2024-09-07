@@ -5,12 +5,15 @@
 @import "variables/typography";
 @import "variables/mixins";
 
-.app {
+body {
   font: var(--font-m);
   color: var(--text-color-dark);
-  background: var(--bg-color);
   min-height: 100vh;
   box-sizing: border-box;
+}
+
+.app {
+  background: var(--bg-color);
 }
 
 .content-page {

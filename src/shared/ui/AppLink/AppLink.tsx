@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Link, LinkProps } from 'react-router-dom';
-import { classNames } from '../../lib/classNames/classNames';
+import { classNames } from '@shared/lib';
 
 import cls from './AppLink.module.scss';
 

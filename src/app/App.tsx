@@ -1,12 +1,8 @@
 import React, {Suspense, useState} from 'react';
-import {useTheme} from './provider/themeProvider';
-import {classNames} from '@shared/lib/classNames/classNames';
-import {Navbar} from '@widgets/Navbar';
-import {Sidebar} from '@widgets/Sidebar';
-import {AppRouter} from './provider/router';
-import {Modal} from '@shared/ui';
-
-import './styles/index.scss';
+import { useTheme, AppRouter } from '@app/provider';
+import { Navbar, Sidebar } from '@/widgets';
+import { Modal } from '@shared/ui';
+import { classNames } from '@shared/lib';
 
 const App = () => {
   const { theme } = useTheme();
