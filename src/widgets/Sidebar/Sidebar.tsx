@@ -1,14 +1,11 @@
-import React, {FC, useState} from 'react';
-import {useTranslation} from 'react-i18next';
-import {Button, ButtonSize, ButtonTheme} from '@shared/ui/Button/Button';
-import {classNames} from '@shared/lib/classNames/classNames';
-import {ThemeSwitcher} from '@shared/ui/ThemeSwitcher';
-import {LangSwitcher} from '@shared/ui/LangSwitcher/LangSwitcher';
-import {AppLink} from '@shared/ui/AppLink/AppLink';
+import React, { FC, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { LangSwitcher, ThemeSwitcher, Button, ButtonSize, ButtonTheme, AppLink } from '@shared/ui';
+import { Svg } from '@shared/assets';
+import { RouterPath } from '@shared/config/routerConfig/routerConfig';
+import { classNames } from '@shared/lib';
 
 import cls from './Sidebar.module.scss';
-import {Svg} from '@shared/assets';
-import {RouterPath} from '@shared/config/routerConfig/routerConfig';
 
 interface Props {
   className?: string
